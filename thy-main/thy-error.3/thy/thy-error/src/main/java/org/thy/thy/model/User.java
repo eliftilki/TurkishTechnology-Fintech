@@ -52,13 +52,11 @@ public class User {
     private int zipNo;
 
     @Column(name = "latitude", length = 50)
-    private Double latitude;
+    private String latitude;
 
-    @Column(name = "longitude")
-    private Double longitude;
+    @Column(name = "longitude",length = 50)
+    private String longitude;
 
-    @Column(name = "city_pop")
-    private int cityPop;
 
 
     @Column(name = "date_of_birth")
