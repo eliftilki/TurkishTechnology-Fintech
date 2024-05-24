@@ -22,7 +22,7 @@ public class CreatUserRequest {
     private String latitude;
     private String longitude;
     private Date dateOfBirth;
-    private int cityPop;
+
     private Long creditCardNo;
     private Long identityNumber;
 
